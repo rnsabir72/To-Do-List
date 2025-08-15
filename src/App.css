@@ -1,0 +1,100 @@
+/* Container styling */
+.app-container {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(85deg, #000000,#ffffff, black);
+  min-height: 100vh;
+}
+
+/* Input row styling */
+.input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 25px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  outline: none;
+  background-color: #f3f05c;
+  color: rgb(0, 0, 0);
+}
+/* To-do list reset */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* To-do item card */
+.todo-item {
+  padding: 10px;
+  margin-bottom: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f3f05c;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.todo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* To-do text: serial + actual text */
+.todo-text {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Serial number */
+.serial {
+  display: inline-block;
+  width: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Actual text */
+.text {
+  display: inline-block;
+  vertical-align: top;
+  max-width: calc(100% - 30px);
+  word-wrap: break-word;
+  color: #333;
+}
+
+/* Button group below text */
+.btn-group {
+  margin-left: 30px;
+  display: inline-flex;
+  gap: 8px;
+}
+
+/* Buttons styling */
+.btn-group button {
+  padding: 3px 3px;
+  background-color: #6fdeec;
+  border-radius: 5px;
+}
+
+h1 {
+  color: white;
+  text-decoration: underline;
+}
+
+.btn {
+  color: #000000;
+  border-radius: 5px;
+  background-color: #6fdeec;
+}
